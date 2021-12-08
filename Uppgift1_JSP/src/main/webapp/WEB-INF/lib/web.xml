@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee">
+
+<servlet>
+<servlet-name>travelServlet</servlet-name>
+<servlet-class>com.danielproject.travelServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>travelServlet</servlet-name>
+<url-pattern>/travel</url-pattern>
+</servlet-mapping>
+
+</web-app>
